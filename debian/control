@@ -2,7 +2,7 @@ Source: gnvim
 Section: editors
 Priority: optional
 Maintainer: Diego Magdaleno <diegomagdaleno@protonmail.com>
-Build-Depends: debhelper-compat, cargo
+Build-Depends: debhelper-compat (= 13), cargo
 Standards-Version: 4.5.0
 Homepage: https://github.com/vhakulinen/gnvim
 Vcs-Git: https://github.com/vhakulinen/gnvim.git
