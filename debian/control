@@ -1,0 +1,15 @@
+Source: gnvim
+Section: editors
+Priority: optional
+Maintainer: Diego Magdaleno <diegomagdaleno@protonmail.com>
+Build-Depends: debhelper-compat, cargo
+Standards-Version: 4.5.0
+Homepage: https://github.com/vhakulinen/gnvim
+Vcs-Git: https://github.com/vhakulinen/gnvim.git
+Vcs-Browser: https://github.com/vhakulinen/gnvim
+
+Package: gnvim
+Architecture: amd64
+Depends: ${misc:Depends}, ${shlibs:Depends}, libgtk-3-0 (>= 3.22)
+Description:  GUI for neovim, without any web bloat
+
